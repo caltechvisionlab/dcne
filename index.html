@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
     <!-- Replace the content tag with appropriate information -->
-    <meta name="description" content="Measuring alignment between human expert-defined features and learned model features.">
+    <meta name="description"
+          content="Measuring alignment between human expert-defined features and learned model features.">
     <meta property="og:title" content="Less is More: Discovering Concise Network Explanations (DCNE)"/>
-    <meta property="og:description" content="Measuring alignment between human expert-defined features and learned model features."/>
+    <meta property="og:description"
+          content="Measuring alignment between human expert-defined features and learned model features."/>
     <meta property="og:url" content="http://www.vision.caltech.edu/DCNE/"/>
     <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
     <meta property="og:image" content="http://www.vision.caltech.edu/DCNE/static/images/DCNE_methods.png"/>
@@ -15,14 +17,16 @@
 
 
     <meta name="twitter:title" content="Less is More: Discovering Concise Network Explanations (DCNE)">
-    <meta name="twitter:description" content="Measuring alignment between human expert-defined features and learned model features.">
+    <meta name="twitter:description"
+          content="Measuring alignment between human expert-defined features and learned model features.">
     <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
     <meta name="twitter:image" content="http://www.vision.caltech.edu/DCNE/static/images/DCNE_methods.png">
     <meta name="twitter:card" content="summary_large_image">
     <!-- Keywords for your paper to be indexed by-->
-    <meta name="keywords" content="text, image, alignment, CLIP, diffusion, Stable Diffusion, perception, computer vision,
-    VLM, vision-language models, LLVM, large language and vision models, object-detection, segmentation, depth estimation,
-    NYU_v2, ADE20K, Pascal, Pascal Watercolor, Pascal Comic, Cityscapes, Dark Zurich, Night Driving.">
+    <meta name="keywords" content="representational alignment, LRP, CRP, CAM, GradCAM, Class Activation Mapping, LayerCAM,
+       XGradCAM, GradCAM++, pytorch grad cam, human, AI, align, XAI, Re-Align, ICLR, 2024, expert, birds, CUB, NABirds, concise,
+        explanations
+    ">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -63,19 +67,19 @@
 <body>
 
 
-
 <section class="hero">
     <div class="hero-body">
         <div class="container is-max-desktop">
             <div class="columns is-centered">
                 <div class="column has-text-centered">
-                    <h1 class="title is-1 publication-title">Less is More: Discovering Concise Network Explanations (DCNE)</h1>
+                    <h1 class="title is-1 publication-title">Less is More: Discovering Concise Network Explanations
+                        (DCNE)</h1>
                     <div class="is-size-5 publication-authors">
                         <!-- Paper authors -->
-<!--                        <span class="author-block" id="first-author-list">-->
-<!--                            <custom-href href="https://nkondapa.github.io/" target="_blank">Neehar Kondapaneni</custom-href>,-->
+                        <!--                        <span class="author-block" id="first-author-list">-->
+                        <!--                            <custom-href href="https://nkondapa.github.io/" target="_blank">Neehar Kondapaneni</custom-href>,-->
 
-<!--                        </span>-->
+                        <!--                        </span>-->
                         <span class="author-block">
                             <a href="https://nkondapa.github.io/" target="_blank">Neehar Kondapaneni</a>,
                             <a href="https://scholar.google.com/citations?user=XkVkcywAAAAJ&hl=en" target="_blank">Markus Marks</a>,
@@ -86,35 +90,35 @@
                     </div>
 
                     <div class="is-size-5 publication-authors">
-                        <span class="author-block"> California Institute of Technology, ETH Zurich</span>
-<!--                        <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>-->
+                        <span class="author-block"> California Institute of Technology</span>
+                        <!--                        <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>-->
                     </div>
 
-                    <div class="column has-text-centered">
-                        <div class="publication-links">
-                            <!-- Arxiv PDF link -->
-                            <span class="link-block">
-                        <a href="https://arxiv.org/" target="_blank"
-                           class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
+<!--                    <div class="column has-text-centered">-->
+<!--                        <div class="publication-links">-->
+<!--                            &lt;!&ndash; Arxiv PDF link &ndash;&gt;-->
+<!--                            <span class="link-block">-->
+<!--                                <a href="https://arxiv.org/" target="_blank"-->
+<!--                                   class="external-link button is-normal is-rounded is-dark">-->
+<!--                                <span class="icon">-->
+<!--                                  <i class="fas fa-file-pdf"></i>-->
+<!--                                </span>-->
+<!--                                <span>Paper</span>-->
+<!--                              </a>-->
+<!--                            </span>-->
 
-                            <!-- ArXiv abstract Link -->
-                            <span class="link-block">
-                  <a href="https://arxiv" target="_blank"
-                     class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-                        </div>
-                    </div>
+<!--                            <span class="link-block">-->
+<!--                                <a href="https://arxiv" target="_blank"-->
+<!--                                 class="external-link button is-normal is-rounded is-dark">-->
+<!--                                    <span class="icon">-->
+<!--                                        <i class="ai ai-arxiv"></i>-->
+<!--                                    </span>-->
+<!--                              <span>arXiv</span>-->
+<!--                                </a>-->
+<!--                            </span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
                 </div>
             </div>
         </div>
@@ -131,9 +135,12 @@
                     <img src="static/images/figure1.png" alt="MY ALT TEXT"/>
                     <h2 class="subtitle has-text-justified">
                         <b>How do models and humans discriminate between two different birds that look very similar?
-                            Do they use the same features?</b> We investigate this question by measuring alignment between
-                        human expert-defined features and features discovered by a model. We find that models do discover
-                        some of the same features that are used by humans and propose a method that can reduce explanation
+                            Do they use the same features?</b> We investigate this question by measuring alignment
+                        between
+                        human expert-defined features and features discovered by a model. We find that models do
+                        discover
+                        some of the same features that are used by humans and propose a method that can reduce
+                        explanation
                         complexity and preserve alignment. Our method, DCNE, is based on the idea that the model's
                         explanations should be concise and should not contain redundant information.
                     </h2>
@@ -162,21 +169,30 @@
             <div class="column is-four-fifths">
                 <div class="content has-text-justified">
                     <p>
-                        We introduce Discovering Conceptual Network Explanations (DCNE), a new approach for generating human-comprehensible
+                        We introduce Discovering Conceptual Network Explanations (DCNE), a new approach for generating
+                        human-comprehensible
                         visual explanations to enhance the interpretability of deep neural image classifiers.
-                        Our method automatically finds visual explanations that are critical for discriminating between classes.
-                        This is achieved by simultaneously optimizing three criteria: the explanations should be few, diverse, and human-interpretable.
-                        Our approach builds on the recently introduced Concept Relevance Propagation (CRP) explainability method.
-                        While CRP is effective at describing individual neuronal activations, it generates too many concepts, which impacts human comprehension.
+                        Our method automatically finds visual explanations that are critical for discriminating between
+                        classes.
+                        This is achieved by simultaneously optimizing three criteria: the explanations should be few,
+                        diverse, and human-interpretable.
+                        Our approach builds on the recently introduced Concept Relevance Propagation (CRP)
+                        explainability method.
+                        While CRP is effective at describing individual neuronal activations, it generates too many
+                        concepts, which impacts human comprehension.
 
                         Instead, DCNE selects the few most important explanations.
                         <b> We introduce a new evaluation dataset centered on the challenging task of classifying birds,
-                        enabling us to compare the alignment of DCNE's explanations to those of human expert-defined ones.</b>
-                        Compared to existing eXplainable Artificial Intelligence (XAI) methods, DCNE has a desirable trade-off
+                            enabling us to compare the alignment of DCNE's explanations to those of human expert-defined
+                            ones.</b>
+                        Compared to existing eXplainable Artificial Intelligence (XAI) methods, DCNE has a desirable
+                        trade-off
                         between conciseness and completeness when summarizing network explanations.
-                        <b>It produces 1/30 of CRP's explanations while only resulting in a slight reduction in explanation quality</b>.
+                        <b>It produces 1/30 of CRP's explanations while only resulting in a slight reduction in
+                            explanation quality</b>.
 
-                        DCNE represents a step forward in making neural network decisions accessible and interpretable to humans,
+                        DCNE represents a step forward in making neural network decisions accessible and interpretable
+                        to humans,
                         providing a valuable tool for both researchers and practitioners in XAI and model alignment.
                     </p>
                 </div>
@@ -201,18 +217,22 @@
     <div class="container is-max-desktop">
         <div class="columns is-centered has-text-centered">
             <div class="column is-four-fifths">
-<!--                <h2 class="title is-4">Human Expert Defined Features</h2>-->
+                <!--                <h2 class="title is-4">Human Expert Defined Features</h2>-->
                 <img src="static/images/all_about_birds.png" alt="MY ALT TEXT"/>
                 <div class="content has-text-justified">
-                    <p><b>Human Expert Defined Features.</b> We use <a href="https://www.allaboutbirds.org/" target="_blank">All About Birds</a>
+                    <p><b>Human Expert Defined Features.</b> We use <a href="https://www.allaboutbirds.org/"
+                                                                       target="_blank">All About Birds</a>
                         from the Cornell Lab of Ornithology to define human expert-defined features for specific birds.
-                        We hire annotators to label these features in accordance to the definitions provided by the website.
-                        We use these features to measure alignment between human expert-defined features and learned model features.
+                        We hire annotators to label these features in accordance to the definitions provided by the
+                        website.
+                        We use these features to measure alignment between human expert-defined features and learned
+                        model features.
                     </p>
                 </div>
                 <img src="static/images/gt_samples_wide.jpg" alt="MY ALT TEXT"/>
                 <div class="content has-text-justified">
-                    <p><b>Sample Human Expert Defined Features.</b> We show one example image and its associated features
+                    <p><b>Sample Human Expert Defined Features.</b> We show one example image and its associated
+                        features
                         for each of the classes in our dataset. We choose features that are known to be discriminative
                         between other visually similar birds. For example, the Bohemian Waxwing and Cedar Waxwing can
                         be differentiated according to belly color.
@@ -241,12 +261,15 @@
     <div class="container is-max-desktop">
         <div class="columns is-centered has-text-centered">
             <div class="column is-four-fifths">
-<!--                <h2 class="title is-4">Single-domain</h2>-->
+                <!--                <h2 class="title is-4">Single-domain</h2>-->
                 <img src="static/images/DCNE_methods.png" alt="MY ALT TEXT"/>
                 <div class="content has-text-justified">
-                    <p><b>Overview of DCNE.</b> Our method has two stages, the first produces a local/instance level explanation
-                        and the second produces a global/class level explanation. The first stage of our method uses non-negative matrix factorization (NMF)
-                        to reduce redundancy in the explanations produced by the base XAI method. The second stage clusters images and attributions
+                    <p><b>Overview of DCNE.</b> Our method has two stages, the first produces a local/instance level
+                        explanation
+                        and the second produces a global/class level explanation. The first stage of our method uses
+                        non-negative matrix factorization (NMF)
+                        to reduce redundancy in the explanations produced by the base XAI method. The second stage
+                        clusters images and attributions
                         so that semantically related features within and across images are grouped together.
                     </p>
                 </div>
@@ -273,22 +296,29 @@
     <div class="container is-max-desktop">
         <div class="columns is-centered has-text-centered">
             <div class="column is-four-fifths">
-<!--                <h2 class="title is-4">Single-domain</h2>-->
+                <!--                <h2 class="title is-4">Single-domain</h2>-->
                 <img src="static/images/cost_figure.png" alt="MY ALT TEXT"/>
                 <div class="content has-text-justified">
-                    <p><b>Explanation Complexity vs. Alignment</b>  We compare the alignment of the explanations produced by DCNE
-                        to those produced by CRP. We find that DCNE produces explanations that are aligned with human expert-defined features
-                        while being more concise. We measure alignment using the mean IoU between the best matching attribution maps produced by the model and
+                    <p><b>Explanation Complexity vs. Alignment</b> We compare the alignment of the explanations produced
+                        by DCNE
+                        to those produced by CRP. We find that DCNE produces explanations that are aligned with human
+                        expert-defined features
+                        while being more concise. We measure alignment using the mean IoU between the best matching
+                        attribution maps produced by the model and
                         the human expert-defined features.
                     </p>
                 </div>
                 <br> </br>
                 <img src="static/images/qualitative_clusters.png" alt="MY ALT TEXT"/>
                 <div class="content has-text-justified">
-                    <p><b>Global/Class Level Explanations</b> We find that our global/class level explanations are able to capture
-                        semantically related features within and across images. We show five clusters that are particularly easy to interprety.
-                        For each cluster we show the five most representative images. We find that this approach is able to show concepts we have
-                        in our annotated dataset, but also features that we did not explicitly annotate (but are known to be discriminative).
+                    <p><b>Global/Class Level Explanations</b> We find that our global/class level explanations are able
+                        to capture
+                        semantically related features within and across images. We show five clusters that are
+                        particularly easy to interprety.
+                        For each cluster we show the five most representative images. We find that this approach is able
+                        to show concepts we have
+                        in our annotated dataset, but also features that we did not explicitly annotate (but are known
+                        to be discriminative).
                     </p>
                 </div>
             </div>
